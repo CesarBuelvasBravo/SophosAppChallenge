@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="GetintoButton">Ingresar</string>
+    <string name="FingersprintButton">Ingresar con huella</string>
+    <string name="TextInfomain">Ingresa tus datos para acceder</string>
+    <string name="LogoSophos">Logo Sophos</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <!-- Strings related to login -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //Second strings page
+
+</resources>

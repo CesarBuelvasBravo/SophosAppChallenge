@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.LoginFragment">
+
+    <Button
+        android:id="@+id/Ingresar"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:background="@color/PurplePrincipal"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/GetintoButton"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        tools:visibility="visible" />
+
+
+
+    <Button
+        android:id="@+id/ingresarconhuella"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/FingersprintButton"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/PurplePrincipal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="349dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:textAllCaps="false"
+        android:textColor="@color/PurplePrincipal"
+        android:textColorHint="@color/PurplePrincipal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453"
+        tools:ignore="ExtraText,LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="349dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/PurplePrincipal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+    <TextView
+        android:id="@+id/Infoingreso"
+        android:layout_width="180dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/TextInfomain"
+        android:textAlignment="center"
+        android:textColor="@color/PurplePrincipal"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <ImageView
+        android:id="@+id/sophosLogo"
+        android:layout_width="297dp"
+        android:layout_height="94dp"
+        android:contentDescription="@string/LogoSophos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/sophoslogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
